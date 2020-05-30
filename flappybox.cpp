@@ -257,6 +257,7 @@ switch(key)
 
 void mydisplay(void)
 {
+glutSetCursor(GLUT_CURSOR_NONE);	
 glClear(GL_COLOR_BUFFER_BIT);
 if(flag==0)
 	frontscreen();
